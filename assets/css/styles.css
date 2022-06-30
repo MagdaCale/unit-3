@@ -1,0 +1,151 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 35rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font: 2em;
+}
+p {
+    margin: 1rem 0 1rem;
+}
+section {
+    padding: 1rem;
+    height: 30rem;
+    width: 30rem;
+    border: 0.2rem solid black;
+}
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+ul {
+    padding-inline-start: 1.2em;
+}
+ul li {
+    list-style: none;
+}
+.dog li::before {
+    content: '🐕';
+}
+.cat li::before {
+    content: '🐈';
+}
+.parrots li::before {
+    content: '🦜';
+}
+.snake li::before {
+    content: '🐍';
+}
+.lizzard li:before {
+    content: '🐊';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * 
+section {
+    border: 0.02cm solid black;
+    border-radius: 0.1cm;
+    background-color: #fff;
+}
+article {
+    margin: 0.45cm;
+    padding: 1.5cm 3cm;
+    background-color: rgb(161, 161, 161);
+    border: 0.10cm solid black ;
+    border-radius: 0.2cm;
+}
+h2 {
+    font-size: 1.5cm;
+    text-align: center;
+    padding: 0.3cm 1cm;
+    color: white;
+    background-color: gray;
+    text-shadow: 0.15cm 0.15cm black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+h3 {
+    margin-top: 1.5cm;
+    font-size: 2.5cm;
+    color: white;
+}
+p {
+    margin-bottom: 0.5cm;
+    font-size: 0.7cm;
+    color: white;
+}
+ul li {
+    padding: 0.3cm;
+    list-style: none;
+}
+li:first-child {
+    background-color: white;
+    font-size: 0.7cm;
+}
+li:nth-child(2) {
+    font-size: 1cm;
+    color: white;
+}
+li:last-child {
+    background-color: white;
+    font-size: 1.2cm;
+}
+li:first-child::before {
+    content:' \2022 ';
+    color: gray;
+    text-shadow: 0.04cm 0.04cm black;
+}
+li:nth-child(2)::before {
+    content:' \2022 ';
+    color: gray;
+    text-shadow: 0.04cm 0.04cm black;
+}
+li:last-child::before {
+    content:' \2022 ';
+    color: gray;
+    text-shadow: 0.04cm 0.04cm black;
+}
+ */
